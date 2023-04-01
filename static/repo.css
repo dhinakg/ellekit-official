@@ -1,3 +1,9 @@
+html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
 body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
 		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -18,7 +24,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	gap: 5rem;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -88,9 +95,6 @@ h3 {
 .btn p {
 	margin: 0;
 	text-align: left;
-}
-
-.btn > p {
 	flex-grow: 1;
 }
 
@@ -120,7 +124,31 @@ h3 {
 		width: 80%;
 	}
 
-	.text {
-		font-weight: 400;
+	.btn p {
+		font-size: 90%;
+	}
+
+	h1 {
+		font-size: 5rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	body {
+		gap: 10%;
+	}
+
+	.repo-btns {
+		gap: 1rem;
+	}
+
+	.icon {
+		width: 2rem;
+	}
+
+	.background-logo {
+		display: none;
 	}
 }
