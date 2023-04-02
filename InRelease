@@ -1,16 +1,30 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 darwin-amd64 darwin-arm64
 Codename: ellekit
 Components: main
-Date: Sun, 02 Apr 2023 03:06:27 +0000
+Date: Sun, 02 Apr 2023 16:59:28 +0000
 Description: Official ElleKit repo.
 Label: Official ElleKit builds
 Origin: ElleKit
 Suite: stable
 Version: 1.0
 MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 Contents-darwin-amd64
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 Contents-darwin-amd64.bz2
+ 4a4dd3598707603b3f76a2378a4504aa               20 Contents-darwin-amd64.gz
+ 3b803995341f2127570876b57cf00933               15 Contents-darwin-amd64.lz4
+ bb6bd0dc540d00caac1dcc86205e0f23               23 Contents-darwin-amd64.lzma
+ 8dc5aea5b03dff8595f096f9e368e888               32 Contents-darwin-amd64.xz
+ 5d80401e01d33084c65e94f93351e94c               13 Contents-darwin-amd64.zst
+ d41d8cd98f00b204e9800998ecf8427e                0 Contents-darwin-arm64
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 Contents-darwin-arm64.bz2
+ 4a4dd3598707603b3f76a2378a4504aa               20 Contents-darwin-arm64.gz
+ 3b803995341f2127570876b57cf00933               15 Contents-darwin-arm64.lz4
+ bb6bd0dc540d00caac1dcc86205e0f23               23 Contents-darwin-arm64.lzma
+ 8dc5aea5b03dff8595f096f9e368e888               32 Contents-darwin-arm64.xz
+ 5d80401e01d33084c65e94f93351e94c               13 Contents-darwin-arm64.zst
  896ae565e88cc8f6d0841103ec3c85c4              553 Contents-iphoneos-arm
  5c5ed51a60b1b796e942231a7886f4c3              249 Contents-iphoneos-arm.bz2
  cdf1a1aaf3d2acd69e5780f480194f0d              211 Contents-iphoneos-arm.gz
@@ -32,8 +46,22 @@ MD5Sum:
  9b395d5a3794566345144ec9378209a6              778 Packages.lzma
  15b52dbb107e9865563dffe771af9c12              824 Packages.xz
  291cabaaa6508cb28a8899ba92d338e4              763 Packages.zst
- 9af6a381445fd785bb0763226acd76cf              226 Release
+ 11e78a44c794424f9d102858e1cf5b7b              252 Release
 SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Contents-darwin-amd64
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 Contents-darwin-amd64.bz2
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed               20 Contents-darwin-amd64.gz
+ 258f1ec2daa02779a8e633197395ddc30c542a69               15 Contents-darwin-amd64.lz4
+ bbafdd294d92e9bda2dcca2b75253d040293f768               23 Contents-darwin-amd64.lzma
+ 9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 Contents-darwin-amd64.xz
+ fb2e51cbd24e286dd066bd419d77cd772967e384               13 Contents-darwin-amd64.zst
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Contents-darwin-arm64
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 Contents-darwin-arm64.bz2
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed               20 Contents-darwin-arm64.gz
+ 258f1ec2daa02779a8e633197395ddc30c542a69               15 Contents-darwin-arm64.lz4
+ bbafdd294d92e9bda2dcca2b75253d040293f768               23 Contents-darwin-arm64.lzma
+ 9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 Contents-darwin-arm64.xz
+ fb2e51cbd24e286dd066bd419d77cd772967e384               13 Contents-darwin-arm64.zst
  54ea958dde5d9ccebe47ab41e8c1548389dbbd42              553 Contents-iphoneos-arm
  c90b9980e3d4ed86a4eb1d60830d9dd5f879659d              249 Contents-iphoneos-arm.bz2
  b4ac2f75f61fd2b221a4b17646316cca26f0bd51              211 Contents-iphoneos-arm.gz
@@ -55,8 +83,22 @@ SHA1:
  111cd6a71c3e12c8f0954a3886aee46611d1257d              778 Packages.lzma
  b72509be9827d2bb0cecd5c70622cdc31266c5d4              824 Packages.xz
  68fd0f8a6f975c299714f994fd7ca2e1e7ab46fd              763 Packages.zst
- 38a5272c08c4036135fd6fc7b047f2cd13f0ba5e              226 Release
+ e3e3a6438eb702af17e37d496797c90a7d5734e3              252 Release
 SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Contents-darwin-amd64
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 Contents-darwin-amd64.bz2
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec               20 Contents-darwin-amd64.gz
+ a01ab6c73734fbe3eac2971567666b6cd7d9586d5becc29c4a57b2c5a9225237               15 Contents-darwin-amd64.lz4
+ 6e84449b5ce658ae9d8e46ed3538a72d5af935672854ceb16d9a6aaad397e8d5               23 Contents-darwin-amd64.lzma
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 Contents-darwin-amd64.xz
+ f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c               13 Contents-darwin-amd64.zst
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Contents-darwin-arm64
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 Contents-darwin-arm64.bz2
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec               20 Contents-darwin-arm64.gz
+ a01ab6c73734fbe3eac2971567666b6cd7d9586d5becc29c4a57b2c5a9225237               15 Contents-darwin-arm64.lz4
+ 6e84449b5ce658ae9d8e46ed3538a72d5af935672854ceb16d9a6aaad397e8d5               23 Contents-darwin-arm64.lzma
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 Contents-darwin-arm64.xz
+ f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c               13 Contents-darwin-arm64.zst
  0fa4e86031160741dc6c60f43a48b364df10e784d76beccca8bc09e384194200              553 Contents-iphoneos-arm
  45d001b0286ff85400b2784401102ae980821219fe6255d9aa5e06ae26afa902              249 Contents-iphoneos-arm.bz2
  4d291d31f54de0ceba281ed4271555656f06444af88aa734dab2b67cb4649a06              211 Contents-iphoneos-arm.gz
@@ -78,8 +120,22 @@ SHA256:
  8b94b1cd7ba7aade6a6434935d5d419eeb54432ffe10893e68a470441c00dfce              778 Packages.lzma
  854ea4d990574d8677f6b10bb9798dd3139430a173c0761fc4bffbdf2fdc5524              824 Packages.xz
  06ac05ee33b15c6db8d9d6bd8b79e59d022a579fdefe6500fe6a0757ae512a4a              763 Packages.zst
- ead13c9b777663e273057112f50eb148367e5438e5f305a0fd4b7f87b5a7858f              226 Release
+ e791f8d7bfddaee45ca7736c0b0ba6ea7d85b627627dea339c44f27e434d5ffe              252 Release
 SHA512:
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Contents-darwin-amd64
+ 6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 Contents-darwin-amd64.bz2
+ 1b46b9b08d5b338be9d732a1724795b2eab63daffde377218727c90857b79fe6a47bceed495117fcde60f7339812ef75ef4c69f82dd79fb69b6cbf8006b521f2               20 Contents-darwin-amd64.gz
+ 92ae33b7d0de91d96de8dd9d1da107961de1fb833edfa13a3f0e6065ddf0af478445c61dbb3b5b89e1b6f15fa5b43158e71658e1c6c3e60bcaa1b58ee3c05dfa               15 Contents-darwin-amd64.lz4
+ 4e04e1b0c027799804ed72bd98b74ed486bbbadb48ced318ceec007c70864faa7a1f39c4f09d20a52aeabea747fb493b07d909a6b9b4907bb0568526b992a76d               23 Contents-darwin-amd64.lzma
+ 034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 Contents-darwin-amd64.xz
+ 654b3bc259db923bca2fb5ac8d8c2aa5ceddf594cce152d2a467850ae092317206e3bea307c8528e05442811f5ef8c4ccb9daa4da2a56ddc7f436c6ee1aee7d0               13 Contents-darwin-amd64.zst
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Contents-darwin-arm64
+ 6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 Contents-darwin-arm64.bz2
+ 1b46b9b08d5b338be9d732a1724795b2eab63daffde377218727c90857b79fe6a47bceed495117fcde60f7339812ef75ef4c69f82dd79fb69b6cbf8006b521f2               20 Contents-darwin-arm64.gz
+ 92ae33b7d0de91d96de8dd9d1da107961de1fb833edfa13a3f0e6065ddf0af478445c61dbb3b5b89e1b6f15fa5b43158e71658e1c6c3e60bcaa1b58ee3c05dfa               15 Contents-darwin-arm64.lz4
+ 4e04e1b0c027799804ed72bd98b74ed486bbbadb48ced318ceec007c70864faa7a1f39c4f09d20a52aeabea747fb493b07d909a6b9b4907bb0568526b992a76d               23 Contents-darwin-arm64.lzma
+ 034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 Contents-darwin-arm64.xz
+ 654b3bc259db923bca2fb5ac8d8c2aa5ceddf594cce152d2a467850ae092317206e3bea307c8528e05442811f5ef8c4ccb9daa4da2a56ddc7f436c6ee1aee7d0               13 Contents-darwin-arm64.zst
  af2a0f67a30e85b8bb67b8c8e3a05cf511fd1d1cb8f7982c97ec8bcfb5c1588e044b11f4f2b36a994b7e0279e05f6a4610a4a3f28a76a58527853840ea0826e8              553 Contents-iphoneos-arm
  73e935153865404a5d79f41c976fadbdec91aa3cde71d39c172cb6217a64199df13cf73a15f0965f6e246867d56ae7c08f2f2dd7247bc9f1ba9bc4c4b046daec              249 Contents-iphoneos-arm.bz2
  ce21dfe91db73ff7d3004ee41e745390bbd23bdeb0e23b8de75b3dad0ee7c9f1bdd9091942ad8bd2e91b5eb75fe75af498472686a47c170716fddac4828b0c6d              211 Contents-iphoneos-arm.gz
@@ -101,20 +157,20 @@ SHA512:
  b0aac9813ef52ed7933df7521af590ee81cb61465c13c2a299bd65e345a965abfa4a793dae9ebe201f36bb7752ad09ec2c1e972431f38b1ab6dba790b2acfed2              778 Packages.lzma
  67495c493316cf40bf3460cf80a099af11c92eeba3a8e2cfc87fa942e13ba6e13ba0724461474f44fb116e1d9c62da9919dee0b3d8ff9096f37cee62c0d8541d              824 Packages.xz
  7b5a9f56efa5fd0a9d10efa991e98484afe91cba0d0e3fde28ee9b13fd8805d0cdd00cb2b9b1a3fcfb7f4fc3b8d8dd317d603c4838dcdd72fe813044b030661f              763 Packages.zst
- 85fe0311732e2d871de814903ec7c9ab5130fe32d39c3aed20bea8a7bda82e5d6819de6097676e9cee5577632a5c6ec978b1c30165840c4d195cc133d5d2383d              226 Release
+ d1697138beb1617a03294c14b16dc40cea78b91d53cfb9e15b2c1f44521152a08301ab27b3fa82032bd9c4a34451eb3ab1cd1ee4459066324f640fa00516e960              252 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEccmvls0vOoqDfv+7AV1Kmx1KI3AFAmQo8TQACgkQAV1Kmx1K
-I3Cx2Q//aH9Uda/Qam56lpjws1apy6f3pd6MDC8zK+ofygWY1tRzrsU4+30Rw3xA
-8NnqPUKZg3S977ynE6V4uyZ45aiZ+bzpf1Yq30XSiPRl4zKvBaSFCKnK6FCc6tBl
-C28v3FyQX4RSiNHyTry2ndqC9d1/pqMp5TuTpoEyCc0/1BPPxeyMCXF2zGjPjgzX
-/5tYs8I1orwrT65/ANi7V7rfHEYuAgbGHlg1wbEtXus1FgcHdvgUR1waaVnz5aBz
-HEWpAOdvLtcwdeE7tKutwOLEoXCD+pFCWFubJZq522OifT1ZjWqprUAvC50AVScl
-DXHZRFmn3QFamkNarwZ37aOS5bSNLKgP1sCxdNPeRQ+yFJON8UA5bF3RriF4XQzc
-ZskM6oRE72tp96wb2Qs1PBJ3sRaawmr0UjXCMKoudPHbH8CrBr2cMbl1PUkgAXQd
-PVp0lHmtjXOy7FWX788+WEn/amwq3LpSosZyMIcRkD+YKWaBRfIRxRLKKOSx0fQD
-XAPWo1iqEh+R+UCIHCsvCfQvBL8mdncBpj7JEaVYQz4RUEpLD50N6ht//YcVMPzA
-IIO5qs9AoIfEoWbGZILYVsQQZDuJ7+0HKGrVpw5d8ssI79nTtvs5BDEfQGd2YZEC
-QeyXbvH6HBBR1QWfFnSwb4Ykkts0CQ/1YBNvtGNGrv1/0IuAHZE=
-=kjK/
+iQIzBAEBCgAdFiEEccmvls0vOoqDfv+7AV1Kmx1KI3AFAmQptHEACgkQAV1Kmx1K
+I3BAsA//TW3B2GOx4e+Wo2D+VR6b73kI5Th8nCmkVpwbMehjCFZ7AAecDPntJzW/
+PlVkHm9/jpZotqRJ62zjTcEwZYBmpsRt0khKdgYW5cuh8OcVr6HjAn9bFXay/H8p
+ggrdb9Ovixa7POWr+/oHAWDaluKo32je8dKI6qfMEp9U3LJehYKqkVWwbVgwU+gZ
+L3DQb9bNsFzkp7O4Jbu8n4xJy0WS4G020H6fX35f86vViD87rkmxj8vwvejSeH4X
+iILAJfpSkj91ekJ2EMk4vTTrXUUPzFOCK8XCPuIjaCuXUZL2rqI1r/oakYVDzLSR
+pp3TpnxA7A1Lyax1/tzwYSNp66ReXDpuRB2rDvnKNTbIxTHpkGHBx9KtcY3u2TT9
+rHMdzdT6FTc2+x6y+/Zgf69NKnGRA28H3TfKcTlYYo3qclZlAcro5tZXlPDp7eH7
+sz+P4vFTexqp2lIxztmZvwxMbsIpXtwwJnRfcjqlwOOOoOhzh52rilu9dECI3Vh4
+tUzdGhdDFOmQb9FEz/ryTnsmGGG/JCGZ/ZJ5GzLXK4yud+18GznFkSFH/grb8k/o
+mnv4xVJvbZgxVZF6wWMjKPzPhbMzllg4VkX9tHN2VY9j0FO+CEU+pAzZFDKws69X
+OSY9/8sdnnRyqRFvh3wNPdT+bjzZ80N7qpejbz50Y5d1BwVpn64=
+=hk0m
 -----END PGP SIGNATURE-----
