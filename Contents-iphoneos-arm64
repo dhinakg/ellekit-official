@@ -1,0 +1,12 @@
+var/jb/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate ellekit
+var/jb/Library/MobileSubstrate/DynamicLibraries		    ellekit
+var/jb/etc/rc.d/ellekit-loader				    ellekit
+var/jb/usr/lib/TweakLoader.dylib			    ellekit
+var/jb/usr/lib/ellekit/MobileSafety.dylib		    ellekit
+var/jb/usr/lib/ellekit/libinjector.dylib		    ellekit
+var/jb/usr/lib/ellekit/pspawn.dylib			    ellekit
+var/jb/usr/lib/libellekit.dylib				    ellekit
+var/jb/usr/lib/libhooker.dylib				    ellekit
+var/jb/usr/lib/libsubstrate.dylib			    ellekit
+var/jb/usr/libexec/ellekit/loader			    ellekit
+var/jb/usr/share/doc/ellekit/LICENSE			    ellekit
