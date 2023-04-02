@@ -28,7 +28,7 @@ body {
 }
 
 
-.background-logo {
+.background-glyph {
 	position: absolute;
 	z-index: -1;
 	opacity: 0.3;
@@ -121,7 +121,7 @@ h3 {
 }
 
 @media screen and (max-width: 425px) {
-	.background-logo {
+	.background-glyph {
 		opacity: 0.6;
 	}
 }
