@@ -18,6 +18,11 @@ compress() {
     lzma -c9 "$1" >"$1.lzma"
 }
 
+generate_contents() {
+    apt-ftparchive --arch "$1" contents $POOL_DIR >"$OUTPUT_DIR/Contents-$1"
+    compress "$OUTPUT_DIR/Contents-$1"
+}
+
 rm -r $OUTPUT_DIR >/dev/null 2>&1 || true
 if [ -e $STATIC_DIR ]; then
     cp -r $STATIC_DIR $OUTPUT_DIR
@@ -25,15 +30,13 @@ else
     mkdir $OUTPUT_DIR
 fi
 
-
 apt-ftparchive packages $POOL_DIR >$OUTPUT_DIR/Packages
 compress $OUTPUT_DIR/Packages
 
-apt-ftparchive --arch iphoneos-arm contents $POOL_DIR >$OUTPUT_DIR/Contents-iphoneos-arm
-compress $OUTPUT_DIR/Contents-iphoneos-arm
-
-apt-ftparchive --arch iphoneos-arm64 contents $POOL_DIR >$OUTPUT_DIR/Contents-iphoneos-arm64
-compress $OUTPUT_DIR/Contents-iphoneos-arm64
+ARCHS=(iphoneos-arm iphoneos-arm64 darwin-amd64 darwin-arm64)
+for arch in "${ARCHS[@]}"; do
+    generate_contents "$arch"
+done
 
 apt-ftparchive \
     --contents \
@@ -42,7 +45,7 @@ apt-ftparchive \
     -o APT::FTPArchive::Release::Suite="stable" \
     -o APT::FTPArchive::Release::Version="1.0" \
     -o APT::FTPArchive::Release::Codename="ellekit" \
-    -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64" \
+    -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 darwin-amd64 darwin-arm64" \
     -o APT::FTPArchive::Release::Components="main" \
     -o APT::FTPArchive::Release::Description="Official ElleKit repo." \
     release $OUTPUT_DIR >$OUTPUT_DIR/Release
