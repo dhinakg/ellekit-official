@@ -87,21 +87,6 @@ Architecture: iphoneos-arm64
 Version: 1.0
 Maintainer: Charlotte
 Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
-Filename: pool/oldabi_0.1_iphoneos-arm64.deb
-Size: 6074
-MD5sum: 9c3b3b0ea19f991c0e56d7cc8c03b3a1
-SHA1: 797924bb27ed8d3b91223d09c49f5d5e671a7bb4
-SHA256: d489f256f1e3f193b45c73e0c9ad55a504738bf04ad7a85257c147bfc3a1ed1b
-SHA512: e76114bdab4f4dd96e98cf06e44e9635c89fc591ca70b8813a3fbb05a9844a2a0ffdad304381a191094281e9ddd933278701fc4ebf5abf96df81ff1bc527c202
-Description: Support for legacy arm64e ABI in iOS 15.0+
-Author: Charlotte
-Name: Legacy arm64e Support
-
-Package: oldabi
-Architecture: iphoneos-arm64
-Version: 1.0
-Maintainer: Charlotte
-Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
 Filename: pool/oldabi_0.2.1_iphoneos-arm64.deb
 Size: 5940
 MD5sum: ea620c2dd07c59cdfaf6fb4a9543e947
