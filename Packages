@@ -103,18 +103,3 @@ Name: ElleKit (Beta)
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
-Package: oldabi
-Architecture: iphoneos-arm64
-Version: 1.0
-Maintainer: Charlotte
-Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
-Filename: pool/oldabi_0.2.1_iphoneos-arm64.deb
-Size: 5940
-MD5sum: ea620c2dd07c59cdfaf6fb4a9543e947
-SHA1: 64c55a60d6f6a337134b5aa8e63d936936b409e4
-SHA256: d567975af71e9bf47358970552dfad26ca05d6df46ef580b54359a408d01d3b6
-SHA512: 70772f256cbd6614f93bae4a543cd1b52b735c705a0de6ed3b8b2935aa18feba237c959b450540d0c1ef3ec42d0e715561c234f939e6f75161519f5bad3d3dcb
-Description: Support for legacy arm64e ABI in iOS 15.0+
-Author: Charlotte
-Name: Legacy arm64e Support
-
