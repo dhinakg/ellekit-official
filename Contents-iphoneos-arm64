@@ -3,6 +3,7 @@ var/jb/Library/MobileSubstrate/DynamicLibraries		    ellekit
 var/jb/etc/rc.d/ellekit-loader				    ellekit
 var/jb/usr/lib/TweakLoader.dylib			    ellekit
 var/jb/usr/lib/ellekit/MobileSafety.dylib		    ellekit
+var/jb/usr/lib/ellekit/OldABI.dylib			    oldabi
 var/jb/usr/lib/ellekit/libinjector.dylib		    ellekit
 var/jb/usr/lib/ellekit/pspawn.dylib			    ellekit
 var/jb/usr/lib/libblackjack.dylib			    ellekit
