@@ -6,6 +6,7 @@ var/jb/usr/lib/ellekit/MobileSafety.dylib		    ellekit
 var/jb/usr/lib/ellekit/OldABI.dylib			    oldabi
 var/jb/usr/lib/ellekit/libinjector.dylib		    ellekit
 var/jb/usr/lib/ellekit/pspawn.dylib			    ellekit
+var/jb/usr/lib/libblackjack.dylib			    ellekit
 var/jb/usr/lib/libellekit.dylib				    ellekit
 var/jb/usr/lib/libhooker.dylib				    ellekit
 var/jb/usr/lib/libsubstrate.dylib			    ellekit
