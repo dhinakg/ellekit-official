@@ -5,6 +5,7 @@ usr/lib/TweakLoader.dylib				    ellekit
 usr/lib/ellekit/MobileSafety.dylib			    ellekit
 usr/lib/ellekit/libinjector.dylib			    ellekit
 usr/lib/ellekit/pspawn.dylib				    ellekit
+usr/lib/libblackjack.dylib				    ellekit
 usr/lib/libellekit.dylib				    ellekit
 usr/lib/libhooker.dylib					    ellekit
 usr/lib/libsubstrate.dylib				    ellekit
