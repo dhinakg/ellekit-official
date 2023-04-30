@@ -23,9 +23,9 @@ generate_contents() {
     compress "$OUTPUT_DIR/Contents-$1"
 }
 
-rm -r $OUTPUT_DIR >/dev/null 2>&1 || true
+rm -r "${OUTPUT_DIR:?}/"* >/dev/null 2>&1 || true
 if [ -e $STATIC_DIR ]; then
-    cp -r $STATIC_DIR $OUTPUT_DIR
+    cp -r $STATIC_DIR/* $OUTPUT_DIR/
 else
     mkdir $OUTPUT_DIR
 fi
