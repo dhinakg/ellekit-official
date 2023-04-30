@@ -24,10 +24,9 @@ generate_contents() {
 }
 
 rm -r "${OUTPUT_DIR:?}/"* >/dev/null 2>&1 || true
+mkdir $OUTPUT_DIR
 if [ -e $STATIC_DIR ]; then
     cp -r $STATIC_DIR/* $OUTPUT_DIR/
-else
-    mkdir $OUTPUT_DIR
 fi
 
 apt-ftparchive packages $POOL_DIR >$OUTPUT_DIR/Packages
