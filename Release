@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64 darwin-amd64 darwin-arm64
 Codename: ellekit
 Components: main
-Date: Wed, 03 May 2023 03:33:39 +0000
+Date: Wed, 03 May 2023 04:15:30 +0000
 Description: Official ElleKit repo.
 Label: Official ElleKit builds
 Origin: ElleKit
@@ -43,7 +43,7 @@ MD5Sum:
  22efa4157d09d5f059aeedd53b4f3b2d             2179 Packages.lzma
  5d2bfe433eabdfe7f92b50cc9036c9ee             2224 Packages.xz
  2c9a950abbf41cdfef5bbc80df4f6289             2191 Packages.zst
- eb10c2707241c2a9c7c66ffa3af78989              252 Release
+ f5b8ee6bfab1d2850eccca9abd484905              252 Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Contents-darwin-amd64
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 Contents-darwin-amd64.bz2
@@ -80,7 +80,7 @@ SHA1:
  f1ccc7b29d35af2a8046d261e0278afb271581cb             2179 Packages.lzma
  52692aca2120b458be1b054af8ce5c1aedd32e03             2224 Packages.xz
  a26942c4a30f3381a006f311779d0c16744bb63c             2191 Packages.zst
- 417e4f2c971d78a57dea13e4d0f0110e0a764037              252 Release
+ 9aca72df1fc9932d4469261dbc059be6d43814fe              252 Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Contents-darwin-amd64
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 Contents-darwin-amd64.bz2
@@ -117,7 +117,7 @@ SHA256:
  f1965efe6771f554a66798ea3bebe4d5c85be285ab860d8f4317fa656384a165             2179 Packages.lzma
  e77d0a6587584b173c2f8090df60ae5f786fb044afcf129f799499764842aa51             2224 Packages.xz
  8e69df0b621400bf58e8c1699639f2b4980a385cf6acbc65a6f40019c3088504             2191 Packages.zst
- eb45060edfea5aef380e4d13c8f37fb77d21554906f2ab632a8641af8babfbc0              252 Release
+ 94add44b49a257ca72ffbb37278252ae46bb2323ae73b8ecce86bb78c65b76f9              252 Release
 SHA512:
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Contents-darwin-amd64
  6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 Contents-darwin-amd64.bz2
@@ -154,4 +154,4 @@ SHA512:
  b12bc46d70780a7dd7791a81d3e40ce1ddbabfa1de0cb929ce6109a41f5605d55aea197b2218364ed5ec45e9a49850db4ac37611e0533435551150ddf7d61152             2179 Packages.lzma
  68b3e8df3b375eacd9310884e4623d5e46e13de9ab965e9649dc415ff56d5abde8d589fd2896a20a1f9e456a593381d380b3be8ef291217a12708404cf23b433             2224 Packages.xz
  50a14635b01ac0d8d718b2ad785abb7fef36f24ce602dcc1d245d437c61781b177df45f1806d418662cfaee8463d5daf8ee4f095ac8d6c8d75c2471c3b7b29f2             2191 Packages.zst
- e3ea21e78dc2f9e39fd8e8dad6d321d312e6d5f1e0eb9bd1302b23f2dbf989c816e85522011d5c09a6f8e4f2f7c42b76c33e7231af2a41c9542fce09e2e13781              252 Release
+ 2fbdf9f8082ebf738cd9343043fee659fb810a0fbe4d078a98275cc66eb23a33ea798cebf8fe5d24590b2ba2afc1b4f2fe8a1b832332c5077be306dad4774925              252 Release
