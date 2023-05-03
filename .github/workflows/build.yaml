@@ -19,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          # token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Get commit SHA
