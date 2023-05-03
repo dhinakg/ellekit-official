@@ -308,8 +308,4 @@ ul {
 		width: 5px;
 		transform: rotate(-45deg);
 	}
-
-	section {
-		height: 150vh;
-	}
 }
