@@ -168,6 +168,48 @@ Icon: https://ellekit.space/logos/logo.png
 
 Package: ellekit
 Architecture: iphoneos-arm
+Version: 0.6-1
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: pool/ellekit_0.6-1_iphoneos-arm.deb
+Size: 498874
+MD5sum: 1dfdb0e6f255aeab22965fbd6d17951e
+SHA1: 7806387c975e5427cb2c9ca87721a2767dac980a
+SHA256: 4b97f7ac4a7592e3c124dd0eb3e0f25850bbf469a2c4073a32808a5fe8645464
+SHA512: 446ca6a3934feaa6940f3c36bc09f8687b386ec33fd9ba01c88caafa9390e5cceef5e07dda91c400242867dcd76b3a137953758d5ce971e9f769d5c5383f2c71
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 0.6-1
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: pool/ellekit_0.6-1_iphoneos-arm64.deb
+Size: 498818
+MD5sum: b9c604e5ebe92660f2530962cf2a2853
+SHA1: 3167b26d35c72e71d409def3b20d4252727c2d1b
+SHA256: b71828f674974db69b3b1fd25c38f38238c14f609316385e22cce7b1dae8f92d
+SHA512: c8f7da131fc4c72c25591609163fe07fac62723d0abfcabba437211e1af1e6b2a5a9a1e1dbcc3c68ff10088a4ba7dc83c0422feb7536b9f8b7fc0841378f4587
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
+Package: ellekit
+Architecture: iphoneos-arm
 Version: 0.6
 Priority: optional
 Section: Tweak Injection
