@@ -1,6 +1,7 @@
 var/jb/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate ellekit
 var/jb/Library/MobileSubstrate/DynamicLibraries		    ellekit
 var/jb/etc/rc.d/ellekit-loader				    ellekit
+var/jb/usr/lib/TweakInject.dylib			    ellekit
 var/jb/usr/lib/TweakLoader.dylib			    ellekit
 var/jb/usr/lib/ellekit/MobileSafety.dylib		    ellekit
 var/jb/usr/lib/ellekit/OldABI.dylib			    oldabi

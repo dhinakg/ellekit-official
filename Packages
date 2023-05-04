@@ -166,6 +166,48 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: ellekit
+Architecture: iphoneos-arm
+Version: 0.6
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: pool/ellekit_0.6_iphoneos-arm.deb
+Size: 498890
+MD5sum: 2ab70e72e8834e2e5bde3fe64d6f5398
+SHA1: 4377f4c78bc23a24e17eb3f0e90e45352fe3a319
+SHA256: cda96c4bf44e14ecd9977c92b3fe105ead8f29b24e19e5c7d104073c768f95bf
+SHA512: e477c4cf581b9fabec3b6f7814732bf573b00b94880847e53ab6657fd84579a330b9a40772063a60534c023d7dc7b70edd1bcf388ca6f31ec081249209bc4f8e
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 0.6
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: pool/ellekit_0.6_iphoneos-arm64.deb
+Size: 498808
+MD5sum: 0ea7ef6e183a70711489c0c0eab83657
+SHA1: 2805cf7be92e39a328e680e38a4e444e95c5283f
+SHA256: 4e058ba3f91e11c63c07bf07dea71f5c920dc74c1ee2626bf10e0bdb38f3ac6b
+SHA512: 8a53873c58f0fabe3730d80d5aaa5caf46e8580ea41f39c20ba621d331a0fb887f0591e93f9a6af5a6334d8dc773631799e26a8a397181068740665dea8f0668
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: oldabi
 Architecture: iphoneos-arm64
 Version: 0.2.3
@@ -177,6 +219,21 @@ MD5sum: c01e1c9b99f10ccc869ce83caa764b8d
 SHA1: 24bdd1be5dd6c92379c67e3d2b404f1fd9872637
 SHA256: 276e3b4110f719b6985783fc0b983d5b40b2d8192ae81eff8e902071cba9a093
 SHA512: 763c5f3de2c219f9c9b4f8e129d3f242de2f5e82a4b9b51f8d99a9e1be642c85f0cc86d6c79296cef3ad4b8bcc8c01159fd73ff683aea462d6702aa78c1519ba
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support
+
+Package: oldabi
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: pool/oldabi_0.3.1_iphoneos-arm64.deb
+Size: 16218
+MD5sum: 952ee36a57b3d9af35a68f1842c6a6bd
+SHA1: f8e4cf3797aa75ffa728ac3c546b01405de70bfd
+SHA256: 6d1bab3a9eba3fb97c1e046789cdd736e9afdfc4ab6d594bb8469f2495794f97
+SHA512: 406d88677798ab98d8c7ac27c9bda1df13ae953af4a80cd34455d752c0021bf10f1f97811eea8d8494528bfef6c8f1ab7b44d192bb885711e4b430eeb339cff1
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
