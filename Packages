@@ -188,27 +188,6 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
 Package: ellekit
-Architecture: iphoneos-arm
-Version: 0.6
-Priority: optional
-Section: Tweak Injection
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: pool/ellekit_0.6_iphoneos-arm.deb
-Size: 498890
-MD5sum: 2ab70e72e8834e2e5bde3fe64d6f5398
-SHA1: 4377f4c78bc23a24e17eb3f0e90e45352fe3a319
-SHA256: cda96c4bf44e14ecd9977c92b3fe105ead8f29b24e19e5c7d104073c768f95bf
-SHA512: e477c4cf581b9fabec3b6f7814732bf573b00b94880847e53ab6657fd84579a330b9a40772063a60534c023d7dc7b70edd1bcf388ca6f31ec081249209bc4f8e
-Description: ElleKit tweak injection libraries and loader
- Currently in beta.
-Name: ElleKit
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-
-Package: ellekit
 Architecture: iphoneos-arm64
 Version: 0.6
 Priority: optional

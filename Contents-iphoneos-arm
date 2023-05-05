@@ -1,7 +1,6 @@
 Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate  ellekit
 Library/MobileSubstrate/DynamicLibraries		    ellekit
 etc/rc.d/ellekit-loader					    ellekit
-usr/lib/TweakInject.dylib				    ellekit
 usr/lib/TweakLoader.dylib				    ellekit
 usr/lib/ellekit/MobileSafety.dylib			    ellekit
 usr/lib/ellekit/libinjector.dylib			    ellekit
