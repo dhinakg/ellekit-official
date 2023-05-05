@@ -261,6 +261,21 @@ Name: Legacy arm64e Support
 
 Package: oldabi
 Architecture: iphoneos-arm64
+Version: 0.3.2
+Maintainer: Evelyn
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: pool/oldabi_0.3.2_iphoneos-arm64.deb
+Size: 16258
+MD5sum: 8515530621544c1a761fab6add0ab916
+SHA1: 0b64b91ab38623a10f8cf19fb5dd26e150cecf1e
+SHA256: 9834b99b01159722b4f7c2ce498ea1fd07eb36528c237be6899c26605e5dfbed
+SHA512: de49b802a5770819d4252ec0350d3d62c05e29db7f95fd19a91d010e4986a4b8420c676af4e69f3b0c8c89592a2181ce8ed07b30f2744a43cbb943418052fe92
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support
+
+Package: oldabi
+Architecture: iphoneos-arm64
 Version: 0.3
 Maintainer: Evelyn
 Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
