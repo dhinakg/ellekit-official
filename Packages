@@ -260,11 +260,11 @@ Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Filename: pool/ellekit_0.6.3_iphoneos-arm.deb
-Size: 374266
-MD5sum: a70185db08ee57461f786843ac0400d0
-SHA1: 6e5e99f2c24ec38dd5d6e3068d13719b3d05ad5e
-SHA256: 5adea6c9549258866cd727e8f1a2063ddc978a2277ee1fcf40f2a1caeb812622
-SHA512: fe96e7131567f0a31c0cc7919762a2b45eb52f02725c726c4cbe753d0c7e94c2c1018ec611cb2560d0bf4830e86de0651b04a8680f8285b3c0f9989077cd4c1b
+Size: 374188
+MD5sum: 8d1a72083f360a3d871b25ffc2ecf488
+SHA1: 9382a5bfd3bcb69e40be20c25918542a36cbcda9
+SHA256: 203184e02b28d3dfa197143a9659c0f78c2c058e15f221ab311dfb74b20de13b
+SHA512: dc12e31a1173b6b837fa0c9688dfbedffaf51c98557eb68ceb21f806c89e1c6d41c63ec213e1928802e98a0a356c29c3988b4e56c01a8c306cd7c5af33df3ee8
 Description: ElleKit tweak injection libraries and loader
  Currently in beta.
 Name: ElleKit
@@ -281,11 +281,11 @@ Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Filename: pool/ellekit_0.6.3_iphoneos-arm64.deb
-Size: 374490
-MD5sum: 94b3920dab1890d340c1089a00f33aec
-SHA1: ccf855d8f8a4c5fa44c0dde2903b8314f4d298ea
-SHA256: 0f6dff6106f58777100387be444ae214cdcd29293ff8c6f4cbd87ce478f0a21b
-SHA512: 846f8da091e9c8c2d7ae961265196635bb29127917722ab794f789ba8f86048a1e18de87323ce7c919740d6190fa75a1201fde9efb4106052b2505cc5495b9c7
+Size: 374468
+MD5sum: ffe0db637b20d33dfabc6e2630644e46
+SHA1: bf3348ed1b8ec2a1ab11e810a26d32a2ccf051e7
+SHA256: d12298d96ca3b8e8af720c88f3606da5e32ebd72a233ed4456023fae1bf849ce
+SHA512: 9555b248808dd45da65abb8ac1e4c687a6c72dafe1625d7a0f7a1301b04c6a3080b14959ba11066640d6ec9562d1a13a04c934935697ef8ebaa433b0c15024bf
 Description: ElleKit tweak injection libraries and loader
  Currently in beta.
 Name: ElleKit
