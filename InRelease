@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: iphoneos-arm iphoneos-arm64 darwin-amd64 darwin-arm64
 Codename: ellekit
 Components: main
-Date: Sun, 18 Jun 2023 21:52:56 +0000
+Date: Wed, 25 Oct 2023 23:38:04 +0000
 Description: Official ElleKit repo.
 Label: Official ElleKit builds
 Origin: ElleKit
@@ -46,7 +46,7 @@ MD5Sum:
  8f8304574e92ccb010a387878e555d20             4065 Packages.lzma
  40513b25290dd10c2a22628e536f2ed1             4112 Packages.xz
  9bba8ddb8f4673170653b6585e608d1b             4030 Packages.zst
- 92536ae0be1f709b3dcd8cdc861475df              252 Release
+ 29f49b14bdd86846cbf8c36300456326              252 Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Contents-darwin-amd64
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 Contents-darwin-amd64.bz2
@@ -83,7 +83,7 @@ SHA1:
  c9132caead1ca46d19012b4a6c4cae7c5c73df62             4065 Packages.lzma
  8499d79f0f0fa91db7101ad1532dde812299cc1b             4112 Packages.xz
  5a1799d746bc8066da096d58d271c226d3376c79             4030 Packages.zst
- a6b5e2976d1d828b0a8e9f9a02218f8870a89fff              252 Release
+ 4e06a7cc5a9a90a8d1501ce7343cdb4ca1d75ace              252 Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Contents-darwin-amd64
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 Contents-darwin-amd64.bz2
@@ -120,7 +120,7 @@ SHA256:
  8c7bb7b43d272fa7642c3e04b08ffb2d8db281e2a0c77be593785d89fffecf10             4065 Packages.lzma
  ec838e07aae290853ab41de1a0568c29c1e6a603a998f288ee7d90946de14a25             4112 Packages.xz
  f1c585d3485f12d04b8a14cf670d7f9a2ef07d581d7df14fd4bdb890721630ce             4030 Packages.zst
- 796dbed5e5afdebd7f601ea91662489aaa31487f60ff97ce502ac4bfd3136153              252 Release
+ 9e4f8726ffd4dd5607eee533e6806f6d39e36ec39aab44973ba2e98f0695e5fd              252 Release
 SHA512:
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Contents-darwin-amd64
  6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 Contents-darwin-amd64.bz2
@@ -157,20 +157,20 @@ SHA512:
  4dd7f8da460dbd05052bf12061abdf945016c2bdea5148ad1ae95cec3ae070996fb550e4a7278154ba69d17e21876499143aa9c79c4d997d0e625cd6f170bba2             4065 Packages.lzma
  3adc0c3ebeff18bb67b7b93432034891d38f5a1720bc567d5c170bae979df6888ff70a2c56212f0f06e4ab4e0425fc424280ac5dfdc0759226d0a00b4fd670ba             4112 Packages.xz
  e0060347620596519119b2215e611d6d6b3b7cac0c61d54830f30daaa2b78eed329275fccbb4caa9af63a408667425032a17f59e15a6e6a3190223c3558a5d72             4030 Packages.zst
- a89b2003a0aa3565ed2c0ee67b092efc96980efd061007b2ddb5d3752905ced2fa913e22c31b33d3a5e68aaba23cb9191dbbbd91c79804437d7c3272ebe77466              252 Release
+ ba8976dd9a2a9e454e9d8e2767db4c5ed84067aa62970fef56abc5bca4cdb990102e2509667e0c40278bb574bf0393fdfd0e73349ba1952f319827a6c8e7fcf5              252 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEccmvls0vOoqDfv+7AV1Kmx1KI3AFAmSPfLoACgkQAV1Kmx1K
-I3DtJRAAnPsT4WcrpgKm1DlsfRyPqXukx8zUkvVWm3TAqdmh1pUgW8GToj1eK+9v
-hoLOLIDIm+zJz2HWJf++h6tVEbURQIaZLdjdHbcU1ufBSIt7okM91VJxhUau4qEv
-1tFUbVlW92uUagGJ73IlfZoftNY/NNgyob43uO2LDO0RNWSGX/Dtznk8zv5G5tR4
-NNONpKu71P5msruhy8TKumLam16YGFS2Uw3ToAz4ceUF9HN7A+Fusw6qkTc9CXrI
-3qgeUzO6yZbOFpsK6YyX/Xm5SJXRTVp5qN8VR8S3BigW691ubup0pGHi8H05IEXu
-LBlya9N+uY+xzJ7KRgvkLA3q0n5llUMOlh0k34cOWRo3URf4hjF3YFzmdDYYic28
-0vPQZ0hXvrWpcySlKHXjGhjmTDyGBUiDmLR5XRRZjGLQ4FQ+XIoR805d0PG+j8Qs
-HJwMWtD8IKKDGZAanYNBKpYjI0lK7ld7pqWw5JeN+qJ8bI+WRoxYnIzDsws23nMy
-1ljkCqQByu93OzYpI8TQqT4NBvTfcHfMDGQrqdubyVV0Vy4qVKA2HHT+Cwh3sB/J
-MgWQQjCkQKkBYK/SUTvck6k4F+0O71OHsq0CIXU41O68f0c7JUq/Qx0lNKTAHhSh
-kiZfm4awQAESKH2dN7LTx/LWggimU9q5PZgwbT8PIP/mvMxZkek=
-=oeG8
+iQIzBAEBCgAdFiEEccmvls0vOoqDfv+7AV1Kmx1KI3AFAmU5pt0ACgkQAV1Kmx1K
+I3DDRBAAmGqgnYKBd/RHhLVgNPyaQTj/R+i76rycTZu1Zb+elVXu5W7XngzDfj7m
+n3ZZMyXHRxAmLHRmDvkiNb19VuvZGyUneGgs7lKF9/eOBvH4MoH/pWzHojPUgwlw
+SZZyJY2g3spXtFwfeMAwKeB0/8if9M9ZC02mRgexrklhzTuN2jAOGEAW6r3hwc31
+3R39jcnGcKZoNwAhX2ZQ9hL4FWBJB174UUJiJb5FzT9utzZjZNOAriN+yqtRMDE7
+eQKJIDTOXZG/bswhzh2QYXJ30bCDL9xidSxRjIKKWldLRBzgyt63SE7uXQiTTNoZ
+grB3xL4CXorZBrP0ecIFhbgapKWDnsW5x/egL7R3hS2LY3VI5gjIJWii9ttyARG2
+PlnXaN9avSGvUSfrrHkg5WQdBpTp0Dv2sYfcFFQDNNO/c0yy1yYA8udzVi8ZSCMS
+/OvzSLIURQG8s/QcDEZK52p4HaBCXLHmIqyP3RUxUgNvC51663xwEySj59EZoJIl
+kaNyA3S6UuZcxSC2r5wTP14P8d5a/YLc/RzNjrQUoLy8MFQSWL3VvP4kRw/4ymaO
+7BXwGrITd0MaRvpgwHwAGMfAs2wB4nXaQDXAHC+1g3bXh6furZrtyaIgVAJQdyQ8
+e1Iftkjz+yH+PX3CrJbOI8b4pY3aTSlIL3Gum8wnJXvWXzhP/zQ=
+=Iu2N
 -----END PGP SIGNATURE-----
