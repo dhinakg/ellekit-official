@@ -236,6 +236,18 @@ ul {
 	margin-top: -10px;
 }
 
+@media (min-width: 1400px) {
+	.main-section,
+	.info-section,
+	.rootless-jb-info-section {
+		min-height: 600px;
+	}
+
+	.credits-section {
+		min-height: 750px;
+	}
+}
+
 @media (max-width: 600px) {
 	.desktop-only {
 		display: none;
