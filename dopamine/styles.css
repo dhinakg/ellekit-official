@@ -16,6 +16,7 @@ body {
 			var(--bright-color));
 	background-repeat: no-repeat;
 	width: 100%;
+	overscroll-behavior: none;
 }
 
 h1,
@@ -194,11 +195,17 @@ ul {
 }
 
 .info-section-image {
-	width: 20rem;
+	width: 24rem;
 }
 
 .developer-info-section {
 	height: 20rem;
+}
+
+.credits-section {
+	height: auto;
+	padding-block: 4rem;
+	min-height: 100vh;
 }
 
 .credit-box {
@@ -234,6 +241,12 @@ ul {
 
 .credit-box div {
 	margin-top: -10px;
+}
+
+.superscript {
+	font-size: 75%;
+	position: relative;
+	bottom: 0.3em;
 }
 
 @media (min-width: 1400px) {
