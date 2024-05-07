@@ -78,6 +78,7 @@ a {
 
 section {
 	height: 100vh;
+	min-height: 100vh;
 }
 
 ul {
@@ -200,6 +201,7 @@ ul {
 
 .developer-info-section {
 	height: 20rem;
+	min-height: 20rem;
 }
 
 .credits-section {
