@@ -11,13 +11,12 @@ permissions:
 
 jobs:
   build:
-    if: "!contains(github.event.head_commit.message, 'skip-ci')"
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
@@ -29,7 +28,7 @@ jobs:
           echo "sha_short=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: Import GPG Keys
-        uses: crazy-max/ghaction-import-gpg@v4
+        uses: crazy-max/ghaction-import-gpg@v6
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
@@ -38,7 +37,7 @@ jobs:
         run: ./build.sh
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.2.0
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: deploy
