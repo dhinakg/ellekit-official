@@ -77,7 +77,9 @@ a {
 }
 
 section {
+	/* Fallback for Firefox */
 	height: 100vh;
+	height: fit-content;
 	min-height: 100vh;
 }
 
@@ -252,11 +254,11 @@ ul {
 }
 
 @media (min-width: 1400px) {
-	.main-section,
+	/* .main-section,
 	.info-section,
 	.rootless-jb-info-section {
 		min-height: 600px;
-	}
+	} */
 
 	.credits-section {
 		min-height: 750px;
