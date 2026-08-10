@@ -162,6 +162,19 @@ ul {
 	margin-top: 20px;
 }
 
+/* These next two buttons are completely terrible hacks - I have absolutely no clue why these are needed but trying to use direct-button and trollstore-button respectively
+   causes stuff to get bunched together. Someone with competence (aka not me) should probably fix this properly. */
+
+.nots-guide-button {
+	background-color: var(--tint-color);
+	margin-top: 20px;
+}
+
+.ts-guide-button {
+	background-color: #0188fd;
+	margin-top: 20px;
+}
+
 .info-section,
 .rootless-jb-info-section,
 .developer-info-section {
